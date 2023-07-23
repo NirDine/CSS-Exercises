@@ -20,13 +20,14 @@ body {
 }
 
 .modal {
-    border: 1px solid #ffffff10;
+
     box-shadow: 6px 8px 20px 0px #0000002e;
     border-radius: var(--bradius);
     height: ;
     width: clamp(300px, 600px, 80%);
     background: linear-gradient(to right, #3b4265 5%, #292f4d 100%)
 }
+
 
 .modalContentWrapper {
     display: grid;
@@ -151,3 +152,20 @@ body {
     color: #8f95bd;
 
 }
+
+
+/* Hover Effects */
+
+.modal:hover {
+
+    box-shadow:  1px 1px 20px 0px #ffffff0f;
+
+}
+
+.modal:hover .left {
+
+    
+}
+
+/* Single image showcase animation */
+
