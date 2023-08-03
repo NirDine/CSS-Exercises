@@ -114,45 +114,6 @@ body {
     color: var(--text);
 }
 
-.attribution {
-    position: absolute;
-    bottom: 5px;
-}
-
-.attribution,
-.attribution div {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    background: var(--contrast);
-    z-index: 1000;
-}
-
-
-.attribution svg {
-    stroke: #676fa3;
-    fill:none;
-    stroke-miterlimit:10;
-    stroke-width:6px;
-    height: 2.5em;
-    margin-bottom: 0.2em;
-
-}
-
-.attribution span {
-    color: #676fa3;
-    text-align: center;
-    margin-bottom: var(--gap);
-    font-family: verdana;
-}
-
-.attribution span a {
-    color: #8f95bd;
-
-}
-
 
 /* Hover Effects */
 
